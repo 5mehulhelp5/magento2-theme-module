@@ -59,6 +59,7 @@
                 </checkbox>
             </formElements>
         </field>
+        <!-- TODO: Use the same naming as Magento for backward compatibility -->
         <field name="desktop_image_width" sortOrder="31" formElement="input" component="Hyva_Theme/js/pagebuilder/form/element/image-dimension-input">
             <settings>
                 <label translate="true">Desktop Image Width</label>
@@ -72,6 +73,7 @@
                 </imports>
             </settings>
         </field>
+        <!-- TODO: Use the same naming as Magento for backward compatibility -->
         <field name="desktop_image_height" sortOrder="32" formElement="input" component="Hyva_Theme/js/pagebuilder/form/element/image-dimension-input">
             <settings>
                 <label translate="true">Desktop Image Height</label>
@@ -85,6 +87,7 @@
                 </imports>
             </settings>
         </field>
+        <!-- TODO: Use the same naming as Magento for backward compatibility -->
         <field name="mobile_image_width" sortOrder="33" formElement="input" component="Hyva_Theme/js/pagebuilder/form/element/image-dimension-input">
             <settings>
                 <label translate="true">Mobile Image Width</label>
@@ -98,6 +101,7 @@
                 </imports>
             </settings>
         </field>
+        <!-- TODO: Use the same naming as Magento for backward compatibility -->
         <field name="mobile_image_height" sortOrder="34" formElement="input" component="Hyva_Theme/js/pagebuilder/form/element/image-dimension-input">
             <settings>
                 <label translate="true">Mobile Image Height</label>
