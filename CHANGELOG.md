@@ -14,26 +14,25 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 
 ### Added
 
-- **Nothing Added**
+-   Nothing Added
 
 ### Changed
 
-- **Update RecurringData to apply parent theme adjustments from 1.3.21**
-  Because the latest version of the theme-module is commonly installed with older
-  versions of the default theme, the logic has to be adjusted to handle the new 1.3.21 
-  release.
+-   **Update RecurringData to apply parent theme adjustments from 1.3.21**
+    Because the latest version of the theme-module is commonly installed with older versions of the default theme,
+    the logic has to be adjusted to handle the new 1.3.21 release.
 
-- **Fix product list item cache key**
-  The block data property `hideDetails` now is correctly `hide_details`. The old version
-  also remains for backward compatibility.
+-   **Fix product list item cache key**
+    The block data property `hideDetails` now is correctly `hide_details`.
+    The old version also remains for backward compatibility.
 
-  Many thanks to Andreas Pointner (Copex) for the contribution!
+    Many thanks to Andreas Pointner (Copex) for the contribution!
 
-- **Improve README.md**
+-   **Improve README.md**
 
 ### Removed
 
-- Nothing removed
+-   Nothing removed
 
 ## [1.4.2] - 2025-12-10
 
