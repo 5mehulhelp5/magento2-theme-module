@@ -8,6 +8,21 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 
 [Unreleased]: https://gitlab.hyva.io/hyva-themes/magento2-theme-module/-/compare/1.4.3...main
 
+### Added
+
+-   Nothing Added
+
+### Changed
+
+-   **Allow aria-hidden attribute on CMS content icons**  
+    For more information, please refer to [issue #422](https://gitlab.hyva.io/hyva-themes/magento2-theme-module/-/issues/422)
+
+    Many thanks to Valeriia Prokhina (Perspective) for the contribution!
+
+### Removed
+
+-   Nothing removed
+
 ## [1.4.3] - 2026-01-09
 
 [1.4.3]: https://gitlab.hyva.io/hyva-themes/magento2-theme-module/-/compare/1.4.2...1.4.3
