@@ -19,6 +19,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 
     Many thanks to Valeriia Prokhina (Perspective) for the contribution!
 
+-   **Use product title instead of meta title as page title**  
+    For more information, please refer to [issue #513](https://gitlab.hyva.io/hyva-themes/magento2-theme-module/-/issues/513)
+
 ### Removed
 
 -   Nothing removed
