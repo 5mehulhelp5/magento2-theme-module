@@ -18,6 +18,9 @@ include:
   - project: 'hyva-themes/base-ci'
     file: 'test/theme-playwright.yml'
     ref: main
+  - project: 'hyva-themes/base-ci'
+    file: 'test/theme-playwright-box.yml'
+    ref: main
 
 # Override static jobs from includes to skip when RUN_ONLY is set
 static:lint:
@@ -61,3 +64,18 @@ test:playwright:
   parallel:
     matrix:
       - MAGEVERSION: ['2.4.8-p3']
+
+test:playwright:box:
+  extends: .test:theme_playwright_box
+  needs:
+    - job: static:lint
+      optional: true
+    - job: static:phpcs
+      optional: true
+  rules:
+    - if: $RUN_ONLY != '' && $RUN_ONLY != "playwright"
+      when: never
+    - when: on_success
+  parallel:
+    matrix:
+      - BOX_IMAGE_TAG: ['php84-fpm-magento2.4.8-p3']
