@@ -14,7 +14,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 
 ### Added
 
--   Nothing Added
+-   **Add reCAPTCHA Legal Notice option to customize**  
+    For more information, please refer to [issue #514](https://gitlab.hyva.io/hyva-themes/magento2-theme-module/-/issues/514)
 
 ### Changed
 
