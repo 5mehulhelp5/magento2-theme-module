@@ -6,7 +6,39 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
-[Unreleased]: https://gitlab.hyva.io/hyva-themes/magento2-theme-module/-/compare/1.4.3...main
+[Unreleased]: https://gitlab.hyva.io/hyva-themes/magento2-theme-module/-/compare/1.4.4...main
+
+## [1.4.4] - 2026-03-03
+
+[1.4.4]: https://gitlab.hyva.io/hyva-themes/magento2-theme-module/-/compare/1.4.3...1.4.4
+
+### Added
+
+-   **Add reCAPTCHA Legal Notice option to customize**  
+    For more information, please refer to [issue #514](https://gitlab.hyva.io/hyva-themes/magento2-theme-module/-/issues/514)
+
+### Changed
+
+-   **Allow aria-hidden attribute on CMS content icons**  
+    For more information, please refer to [issue #422](https://gitlab.hyva.io/hyva-themes/magento2-theme-module/-/issues/422)
+
+    Many thanks to Valeriia Prokhina (Perspective) for the contribution!
+
+-   **Use product title instead of meta title as page title**  
+    For more information, please refer to [issue #513](https://gitlab.hyva.io/hyva-themes/magento2-theme-module/-/issues/513)
+
+-   **Fix intermittent Luma blocks appearing on Hyvä frontend**  
+    For more information, please refer to [issue #512](https://gitlab.hyva.io/hyva-themes/magento2-theme-module/-/issues/512)
+
+-   **Make the View Transition from the Product List to the Gallery optional and configurable**  
+    For more information, please refer to [issue #511](https://gitlab.hyva.io/hyva-themes/magento2-theme-module/-/issues/511)
+
+-   **Update Lucide Icons to v0.563**  
+    For more information, please refer to [issue #507](https://gitlab.hyva.io/hyva-themes/magento2-theme-module/-/issues/507)
+
+### Removed
+
+-   Nothing removed
 
 ## [1.4.3] - 2026-01-09
 
@@ -14,26 +46,25 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 
 ### Added
 
-- **Nothing Added**
+-   Nothing Added
 
 ### Changed
 
-- **Update RecurringData to apply parent theme adjustments from 1.3.21**
-  Because the latest version of the theme-module is commonly installed with older
-  versions of the default theme, the logic has to be adjusted to handle the new 1.3.21 
-  release.
+-   **Update RecurringData to apply parent theme adjustments from 1.3.21**
+    Because the latest version of the theme-module is commonly installed with older versions of the default theme,
+    the logic has to be adjusted to handle the new 1.3.21 release.
 
-- **Fix product list item cache key**
-  The block data property `hideDetails` now is correctly `hide_details`. The old version
-  also remains for backward compatibility.
+-   **Fix product list item cache key**
+    The block data property `hideDetails` now is correctly `hide_details`.
+    The old version also remains for backward compatibility.
 
-  Many thanks to Andreas Pointner (Copex) for the contribution!
+    Many thanks to Andreas Pointner (Copex) for the contribution!
 
-- **Improve README.md**
+-   **Improve README.md**
 
 ### Removed
 
-- Nothing removed
+-   Nothing removed
 
 ## [1.4.2] - 2025-12-10
 
