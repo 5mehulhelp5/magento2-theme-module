@@ -173,7 +173,7 @@
                     <backend_model>Magento\Config\Model\Config\Backend\Serialized\ArraySerialized</backend_model>
                 </field>
             </group>
-            
+
             <group id="animations" translate="label" sortOrder="40" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>Animations and Transitions</label>
                 <field id="enable_view_transition_gallery" translate="label comment" type="select" sortOrder="10" showInDefault="1"
