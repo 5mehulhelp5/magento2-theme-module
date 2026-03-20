@@ -13,11 +13,14 @@ include:
     file: 'static/phpcs.yml'
     ref: main
   - project: 'hyva-themes/base-ci'
-    file: 'test/integration-box.yml'
+    file: 'test/integration.yml'
     ref: main
   - project: 'hyva-themes/base-ci'
-    file: 'test/theme-playwright-box.yml'
+    file: 'test/integration-box.yml'
     ref: main
+#  - project: 'hyva-themes/base-ci'
+#    file: 'test/theme-playwright-box.yml'
+#    ref: main
 
 # Override static jobs from includes to skip when RUN_ONLY is set
 static:lint:
