@@ -201,7 +201,7 @@ test:playwright:older-magento:
   extends: .test:playwright
   variables:
     # Older Magento returns correct search suggestions (not broken like 2.4.8+)
-    EXPECTED_HINT_RESULT: 'Didi'
+    EXPECTED_HINT_RESULT: 'didi'
   needs:
     - job: build:older-magento
       parallel:
